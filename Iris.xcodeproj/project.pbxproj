@@ -14,6 +14,8 @@
 		FC3A63DC1F2EDEBF00A75C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3A63DB1F2EDEBF00A75C3A /* Assets.xcassets */; };
 		FC3A63DF1F2EDEBF00A75C3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3A63DD1F2EDEBF00A75C3A /* LaunchScreen.storyboard */; };
 		FC3A63EB1F2F026A00A75C3A /* Iris.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A63EA1F2F026A00A75C3A /* Iris.swift */; };
+		FC76A2621F2F088000DAF70E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC76A2611F2F088000DAF70E /* Logger.swift */; };
+		FC76A2641F2F0B8800DAF70E /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC76A2631F2F0B8800DAF70E /* ParameterEncoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		FC3A63DE1F2EDEBF00A75C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC3A63E01F2EDEBF00A75C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC3A63EA1F2F026A00A75C3A /* Iris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iris.swift; sourceTree = "<group>"; };
+		FC76A2611F2F088000DAF70E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FC76A2631F2F0B8800DAF70E /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +98,9 @@
 		FC3A63E71F2EF3E800A75C3A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC76A2631F2F0B8800DAF70E /* ParameterEncoding.swift */,
 				FC3A63EA1F2F026A00A75C3A /* Iris.swift */,
+				FC76A2611F2F088000DAF70E /* Logger.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -238,7 +244,9 @@
 			files = (
 				FC3A63D71F2EDEBF00A75C3A /* ViewController.swift in Sources */,
 				FC3A63EB1F2F026A00A75C3A /* Iris.swift in Sources */,
+				FC76A2641F2F0B8800DAF70E /* ParameterEncoding.swift in Sources */,
 				FC3A63D51F2EDEBF00A75C3A /* AppDelegate.swift in Sources */,
+				FC76A2621F2F088000DAF70E /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

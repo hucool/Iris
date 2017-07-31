@@ -7,5 +7,4 @@ target 'Iris' do
      pod 'RxOptional'
 end
 
-pod 'SwiftyJSON'
 pod 'SwiftLint'
