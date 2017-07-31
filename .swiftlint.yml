@@ -1,0 +1,43 @@
+# 需要检测路径。
+included:
+  - Iris/Classes
+# 忽略的路径。优先级比 `included` 更高。
+excluded:
+  - Pods	
+  - Frameworks
+  - YST/Classes/SDK
+disabled_rules: # rule identifiers to exclude from running
+  - sorted_imports
+
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - closure_spacing
+  - overridden_super_call
+  - redundant_nil_coalescing
+  - private_outlet
+  - nimble_operator
+  - attributes
+  - object_literal
+  - operator_usage_whitespace
+  - closure_end_indentation
+  - first_where
+  - number_separator
+  - prohibited_super_call
+  - fatal_error_message
+  - vertical_parameter_alignment_on_call
+
+identifier_name:
+  excluded:
+    - id
+
+# 每行最大长度
+line_length: 300
+
+# 变量命名长度
+type_name:
+  min_length: 2 # 最短2位
+  max_length: 30 # 最长30位
+
+number_separator:
+  minimum_length: 5
