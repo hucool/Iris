@@ -7,6 +7,7 @@
 //
 
 struct Iris {
+
     @discardableResult
     static func get(url: URLComponentsConvertible = RqConfig.baseURL, api: String) -> Request {
         return request(.get, url, api)

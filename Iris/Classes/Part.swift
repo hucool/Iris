@@ -8,7 +8,7 @@
 
 import Foundation
 
-class UploadMultipart {
+class UploadMultiPart {
     var parts: [Part] = []
 
     func addPart(_ part: Part) {
