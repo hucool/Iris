@@ -16,6 +16,11 @@
 		FC3A63EB1F2F026A00A75C3A /* Iris.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A63EA1F2F026A00A75C3A /* Iris.swift */; };
 		FC76A2621F2F088000DAF70E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC76A2611F2F088000DAF70E /* Logger.swift */; };
 		FC76A2641F2F0B8800DAF70E /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC76A2631F2F0B8800DAF70E /* ParameterEncoding.swift */; };
+		FCF7B0411F31B078006220ED /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7B0401F31B078006220ED /* Part.swift */; };
+		FCF7B0431F31B371006220ED /* URLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7B0421F31B371006220ED /* URLComponents.swift */; };
+		FCF7B0451F31B462006220ED /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7B0441F31B462006220ED /* Config.swift */; };
+		FCF7B0471F31B4EE006220ED /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7B0461F31B4EE006220ED /* Manager.swift */; };
+		FCF7B0491F31C0E7006220ED /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7B0481F31C0E7006220ED /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		FC3A63EA1F2F026A00A75C3A /* Iris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iris.swift; sourceTree = "<group>"; };
 		FC76A2611F2F088000DAF70E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		FC76A2631F2F0B8800DAF70E /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		FCF7B0401F31B078006220ED /* Part.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
+		FCF7B0421F31B371006220ED /* URLComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponents.swift; sourceTree = "<group>"; };
+		FCF7B0441F31B462006220ED /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FCF7B0461F31B4EE006220ED /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		FCF7B0481F31C0E7006220ED /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +108,14 @@
 		FC3A63E71F2EF3E800A75C3A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FC76A2631F2F0B8800DAF70E /* ParameterEncoding.swift */,
 				FC3A63EA1F2F026A00A75C3A /* Iris.swift */,
 				FC76A2611F2F088000DAF70E /* Logger.swift */,
+				FCF7B0401F31B078006220ED /* Part.swift */,
+				FCF7B0421F31B371006220ED /* URLComponents.swift */,
+				FCF7B0441F31B462006220ED /* Config.swift */,
+				FC76A2631F2F0B8800DAF70E /* ParameterEncoding.swift */,
+				FCF7B0461F31B4EE006220ED /* Manager.swift */,
+				FCF7B0481F31C0E7006220ED /* Request.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -242,10 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF7B0431F31B371006220ED /* URLComponents.swift in Sources */,
 				FC3A63D71F2EDEBF00A75C3A /* ViewController.swift in Sources */,
+				FCF7B0411F31B078006220ED /* Part.swift in Sources */,
 				FC3A63EB1F2F026A00A75C3A /* Iris.swift in Sources */,
 				FC76A2641F2F0B8800DAF70E /* ParameterEncoding.swift in Sources */,
+				FCF7B0451F31B462006220ED /* Config.swift in Sources */,
 				FC3A63D51F2EDEBF00A75C3A /* AppDelegate.swift in Sources */,
+				FCF7B0491F31C0E7006220ED /* Request.swift in Sources */,
+				FCF7B0471F31B4EE006220ED /* Manager.swift in Sources */,
 				FC76A2621F2F088000DAF70E /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,4 +6,6 @@
 //  Copyright © 2017年 vodjk. All rights reserved.
 //
 
-import Foundation
+struct Logger {
+    
+}
